@@ -1,4 +1,4 @@
-language: nodde_js
+language: node_js
 
 sudo: false
 
