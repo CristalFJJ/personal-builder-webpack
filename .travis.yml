@@ -8,12 +8,12 @@ cache:
 
 node_js: stable
 
-install:
-  	- npm install
-	# - cd ./test/smoke/template
-	# - npm install -D
-	# - cd ../../../
+# install:
+#   	- npm install
+# 	# - cd ./test/smoke/template
+# 	# - npm install -D
+# 	# - cd ../../../
 
-# scripts:
-# 	- npm test
+scripts:
+	- npm test
 
