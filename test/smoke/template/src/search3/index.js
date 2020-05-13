@@ -7,7 +7,6 @@ import '../../common';
 import './search.less';
 import { a } from './tree-shaking';
 import logo from './images/favicon.png';
-import webp from './images/webp.jpg';
 
 class Search extends React.Component {
     constructor() {
@@ -34,7 +33,6 @@ class Search extends React.Component {
                 Text ? <Text /> : null
             }
             { addResult }
-            <img src={ webp }/>
             搜索文字内 <img src={logo} onClick={this.loadComponent.bind(this)}/>
         </div>
     }
